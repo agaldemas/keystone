@@ -26,12 +26,12 @@ def find_id(elements, attr='name', value=None):
     return next(r for r in elements if r[attr] == value)['id']
 
 # Catalog, endpoints and services
-KEYSTONE_PUBLIC_ADDRESS = '127.0.0.1'
-KEYSTONE_ADMIN_ADDRESS = '127.0.0.1'
+KEYSTONE_PUBLIC_ADDRESS = 'keystone'
+KEYSTONE_ADMIN_ADDRESS = 'keystone'
 KEYSTONE_INTERNAL_ADDRESS = '127.0.0.1'
 
 _REGIONS = [
-    'Spain2',
+    'MNCA',
 ]
 
 REGIONS = []
