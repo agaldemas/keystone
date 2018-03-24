@@ -28,7 +28,7 @@ def find_id(elements, attr='name', value=None):
 # Catalog, endpoints and services
 KEYSTONE_PUBLIC_ADDRESS = 'keystone'
 KEYSTONE_ADMIN_ADDRESS = 'keystone'
-KEYSTONE_INTERNAL_ADDRESS = '127.0.0.1'
+KEYSTONE_INTERNAL_ADDRESS = 'keystone'
 
 _REGIONS = [
     'MNCA',
