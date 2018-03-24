@@ -26,9 +26,9 @@ def find_id(elements, attr='name', value=None):
     return next(r for r in elements if r[attr] == value)['id']
 
 # Catalog, endpoints and services
-KEYSTONE_PUBLIC_ADDRESS = 'keystone'
-KEYSTONE_ADMIN_ADDRESS = 'keystone'
-KEYSTONE_INTERNAL_ADDRESS = 'keystone'
+KEYSTONE_PUBLIC_ADDRESS = 'keyrock'
+KEYSTONE_ADMIN_ADDRESS = 'keyrock'
+KEYSTONE_INTERNAL_ADDRESS = 'keyrock'
 
 _REGIONS = [
     'MNCA',
